@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li.list-item {
+  position: relative;
+  padding: 1rem;
+  box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  background: #ffff;
+}
+
+li.list-item div {
+  flex: 1;
+}
+
+li.list-item button {
+  flex: auto 0;
+}
+
+ul.list-item-actions {
+  background: #ffff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0;
+  margin: 1rem;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+
+ul.list-item-actions li {
+  padding: 0.4rem 1rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
