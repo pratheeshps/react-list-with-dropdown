@@ -1,2 +1,2 @@
 # react-list-with-dropdown
-Created with CodeSandbox
+React sample list apllication with the functionality of dropdown using higher order component and forwardRef concept.
